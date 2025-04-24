@@ -1,0 +1,21 @@
+{
+  "name": "nopcommerce",
+  "version": "1.0.0",
+  "description": "Project to test ecommerce website",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "javascript",
+    "typescript",
+    "testing"
+  ],
+  "author": "Ezz Kukhun",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.3.0",
+    "typescript": "^5.8.3"
+  }
+}
