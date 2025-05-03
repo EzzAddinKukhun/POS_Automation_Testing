@@ -21,7 +21,7 @@ describe('LogIn Test Suite', () => {
         and('contain', `Password is Wrong!`)
         cy.get(`button[class='swal-button swal-button--confirm']`).click()
     })
-    it.only ('Try to login using empty username', () => {
+    it ('Try to login using empty username', () => {
         login.submitLogin('', '123456789')
         cy.get(`.reg_errorMessageBox__G4I4q`)
         .eq(0).should('be.visible').and('contain',`Username is Required!`)
